@@ -1,0 +1,39 @@
+.content-background {
+  background-color: #f4f6f6;
+}
+
+.tabConent {
+  border: 1px solid #f4f6f6;
+  width: 1075px;
+  height: 550px;
+  margin: 0 20px !important;
+  background-color: white;
+  padding: 20px 20px;
+}
+.content-heading {
+  text-align: center;
+  /* border: 1px solid black; */
+  width: 1075px;
+  height: 50px;
+  align-content: center;
+  align-items: center;
+  margin-left: 20px !important;
+  margin-top: 10px;
+  background-color: white;
+  padding-left: 40px;
+  margin-left: 50px;
+}
+tr {
+  background-color: #fbfcfc;
+  color: #1b380e;
+}
+.edit-icon {
+  color: "red";
+  width: 20px !important;
+  height: 15px;
+  border: none;
+  background-color: white;
+  color: red;
+  padding-left: 1px;
+  margin: 5px;
+}

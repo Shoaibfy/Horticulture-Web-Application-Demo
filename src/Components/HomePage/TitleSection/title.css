@@ -1,15 +1,17 @@
-.productName {
+.titleName {
   width: 1300px;
-  margin: 5px 20px !important;
+  margin: 5px 20px;
   margin-bottom: 0px;
   border: 1px solid lightgrey;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-left: 40px;
   height: 50px;
-  color: rgb(30, 84, 30);
+  color: white !important;
   box-shadow: 0 0 15px #cccccc;
+  background-color: rgb(15, 15, 92);
 }
-h4,
-.h4 {
+
+h4 {
   font-size: 1.5rem;
+  color: white;
 }

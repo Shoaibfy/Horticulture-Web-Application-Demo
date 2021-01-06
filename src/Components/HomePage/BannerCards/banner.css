@@ -1,0 +1,31 @@
+.cards-align {
+  display: flex;
+  margin: 5px 15px;
+  margin-left: 30px;
+}
+
+.banner-image-size {
+  width: 155px;
+  height: 140px;
+}
+
+.image-size {
+  width: 170px;
+  height: 150px;
+  padding: 5px;
+  /* border: 1px solid black; */
+}
+.card-size {
+  width: 200px;
+  height: 320px;
+  /* border: 1px solid lightgray; */
+  box-shadow: 0 0 15px #cccccc;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  margin-left: 5px;
+}
+
+.btn-color {
+  background-color: rgb(15, 15, 92) !important;
+}

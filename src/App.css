@@ -7,3 +7,12 @@
 .header-with-content {
   display: flex;
 }
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
+  height: auto;
+  background-color: #fbfcfc;
+  box-shadow: 0 0 15px #cccccc;
+  margin: 10px;
+}

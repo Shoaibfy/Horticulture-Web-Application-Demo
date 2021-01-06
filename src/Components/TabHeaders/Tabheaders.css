@@ -27,6 +27,7 @@
 
 .icon-row:hover {
   background-color: green;
+  cursor: pointer;
 }
 
 .icons-sizes {

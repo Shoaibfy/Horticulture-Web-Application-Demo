@@ -1,53 +1,53 @@
 import React, { Component } from 'react';
 import './TabContent.css'
-import {  Row, Table } from 'reactstrap';
+import {  Row } from 'reactstrap';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEdit } from '@fortawesome/free-solid-svg-icons';
+
+import Slider from '../HomePage/SliderSection/Slider';
+import Dashboard from '../Dashboard/Dashboard';
+import Banner from '../HomePage/BannerCards/Banner';
+import About from '../About/About';
 
 
 
 export class TabContents extends Component {
+  
     render() {
         return (
             <Row  className='content-background' >
-                <Row className='content-heading'>
-                    <h4>{this.props.title}</h4>
-                </Row>
-                <Row className='tabConent'>
-                <Table >
-                    <thead>
-                        <tr>
-                        <th>#</th>
-                        <th>Email</th>
-                        <th>Created At</th>
-                        <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td> <FontAwesomeIcon icon={faEdit} className='edit-icon' /> </td>
-                      
-                        </tr>
-                        <tr>
-                        <th scope="row">2</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td> <FontAwesomeIcon icon={faEdit} className='edit-icon' /> </td>
-                        </tr>
-                        <tr>
-                        <th scope="row">3</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td> <FontAwesomeIcon icon={faEdit} className='edit-icon' /> </td>
-                        </tr>
-                   
-                    </tbody>
-              </Table>
 
+
+                <Row className='content-heading'>
+                    <h5>{this.props.title}</h5>
+                </Row>
+
+                <Row className='tabConent'>
+                  { this.props.title ==='DASHBOARD' ? 
+                    <Dashboard/> :
+                     this.props.title ==='CHARTS' ? 
+                    <Slider /> :
+                     this.props.title ==='APPS' ? 
+                    <Banner /> :
+                     this.props.title ==='ICON_NAMES' ? 
+                     <About /> :
+                     this.props.title ==='TRANSACTIONS' ? 
+                      <Banner />  :
+                     this.props.title ==='EDITABLES' ? 
+                     <About /> :
+                     this.props.title ==='HORTICULTURE' ? 
+                     <Banner />  :
+                     this.props.title ==='TABLES' ? 
+                     <About /> :
+                     this.props.title ==='ORDERS' ? 
+                     <Banner />  :
+                     this.props.title ==='FLOWERS' ? 
+                     <About /> :
+                     this.props.title ==='ABOUT' ? 
+                     <Banner />  :
+                     <h3> Under Development...</h3>
+
+             }
+               
                 </Row>
                
                

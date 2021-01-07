@@ -7,9 +7,6 @@ import plants from './Components/HomePage/plants';
 
 
 
-
-
-
 function App() {
   return (
     <Router>
@@ -17,7 +14,7 @@ function App() {
       <div className='nav-bar'>
       
            <Link to='/' >Plants</Link>
-           <Link to='/form' >Horticulture </Link>
+           <Link to='/horticulture' >Horticulture </Link>
             
       </div>
 
@@ -25,7 +22,7 @@ function App() {
       
       <Switch>
         <Route  exact path='/' component={plants} />
-        <Route   path='/form' component={TabHeaders} />
+        <Route   path='/horticulture' component={TabHeaders} />
         
      
       </Switch>

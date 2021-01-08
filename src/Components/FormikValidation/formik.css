@@ -1,0 +1,12 @@
+.formAlignment {
+  align-items: center;
+  margin-left: 30%;
+  padding: 10px;
+  /* padding-left: 20px;  */
+  width: 600px;
+  height: 550px;
+  border: 1px solid black;
+  font-weight: bold;
+  text-align: left;
+  box-shadow: 0 0 15px #cccccc;
+}

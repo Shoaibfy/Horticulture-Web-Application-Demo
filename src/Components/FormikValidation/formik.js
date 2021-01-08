@@ -1,5 +1,5 @@
 import React from 'react';
-import './newFormik.css';
+import './formik.css';
 import {Label,Row,Col, Button} from 'reactstrap'
 import {Formik, useFormik,Form,Field,ErrorMessage} from 'formik';
 import * as Yup from 'yup';

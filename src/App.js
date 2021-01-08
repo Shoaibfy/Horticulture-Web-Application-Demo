@@ -15,8 +15,38 @@ function App() {
       
            <Link to='/' >Plants</Link>
            <Link to='/horticulture' >Horticulture </Link>
+           <Link to='/' >Plants</Link>
+           <Link to='/horticulture' >Horticulture </Link>
+           <Link to='/' >Plants</Link>
+           <Link to='/horticulture' >Horticulture </Link>
+           <Link to='/' >Plants</Link>
+           <Link to='/horticulture' >Horticulture </Link>
+           <Link to='/' >Plants</Link>
+           <Link to='/horticulture' >Horticulture </Link>
+           <Link to='/' >Plants</Link>
+           <Link to='/horticulture' >Horticulture </Link>
+           <Link to='/' >Plants</Link>
+           <Link to='/horticulture' >Horticulture </Link>
             
       </div>
+      <div className='nav-bar'>
+      
+      <Link to='/' >Plants</Link>
+      <Link to='/horticulture' >Horticulture </Link>
+      <Link to='/' >Plants</Link>
+      <Link to='/horticulture' >Horticulture </Link>
+      <Link to='/' >Plants</Link>
+      <Link to='/horticulture' >Horticulture </Link>
+      <Link to='/' >Plants</Link>
+      <Link to='/horticulture' >Horticulture </Link>
+      <Link to='/' >Plants</Link>
+      <Link to='/horticulture' >Horticulture </Link>
+      <Link to='/' >Plants</Link>
+      <Link to='/horticulture' >Horticulture </Link>
+      <Link to='/' >Plants</Link>
+      <Link to='/horticulture' >Horticulture </Link>
+       
+ </div>
 
       
       

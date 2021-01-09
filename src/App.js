@@ -28,7 +28,7 @@ function App() {
       
       
       <Switch>
-        <Route  exact path='/' component={plants} />
+        <Route  exact path='/plant' component={plants} />
         <Route   path='/horticulture' component={TabHeaders} />
         <Route   path='/prodtable' component={ExampleTable} />
         <Route   path='/formik' component={FormikValidation} />

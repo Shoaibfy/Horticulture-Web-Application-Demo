@@ -1,0 +1,8 @@
+.table-margin {
+  margin-top: 15px;
+  border: 1px solid lightgrey !important;
+}
+
+tr {
+  background-color: #cccccc !important;
+}

@@ -9,7 +9,7 @@ export class Dashboard extends Component {
     render() {
         return (
             <div>
-                  <Table >
+                  <Table className='table-margin' >
                     <thead>
                         <tr>
                         <th>#</th>

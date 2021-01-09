@@ -68,7 +68,7 @@ export class Model2 extends Component {
         const { showmodal } = this.state;
         return (
             <div>
-                 <Button onClick={this.toggleModel}  >ShowAddModal</Button>
+                 <Button onClick={this.toggleModel}  >AddModal</Button>
               {/* {showmodal ?  */}
                 <Modal isOpen={showmodal} >
                     <ModalHeader >Product Details</ModalHeader>

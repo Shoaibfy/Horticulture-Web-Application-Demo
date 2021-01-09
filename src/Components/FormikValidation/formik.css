@@ -1,12 +1,43 @@
 .formAlignment {
-  align-items: center;
-  margin-left: 30%;
-  padding: 10px;
-  /* padding-left: 20px;  */
   width: 600px;
   height: 550px;
-  border: 1px solid black;
+  align-items: center;
+  margin-left: 30%;
+  padding: 20px;
   font-weight: bold;
   text-align: left;
   box-shadow: 0 0 15px #cccccc;
+}
+
+.validation-heading {
+  font-size: 18px;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 30px;
+  color: olivedrab;
+  box-shadow: 0 0 15px #cccccc;
+  padding: 10px;
+}
+.lastname-label {
+  width: 280px !important;
+  margin: 10 0px !important;
+  padding: 0px !important;
+  /* border: 1px solid black; */
+  padding: 5px !important;
+}
+
+.input-field {
+  width: 300px;
+  height: 25px;
+  padding: 5px;
+  margin: 0px 5px;
+  /* border: 1px solid black; */
+}
+
+.comment-field {
+  width: 300px;
+  height: 35px;
+  padding: 5px;
+  margin: 10px 5px;
+  /* border: 1px solid black; */
 }

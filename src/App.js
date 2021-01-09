@@ -20,35 +20,10 @@ function App() {
            <Link to='/plant' >Plants</Link>
            <Link to='/formik' >Formik </Link>
            <Link to='/prodtable' >Product-Table</Link>
-           <Link to='/horticulture' >Horticulture </Link>
-           <Link to='/plant' >Plants</Link>
-           <Link to='/horticulture' >Horticulture </Link>
-           <Link to='/plant' >Plants</Link>
-           <Link to='/horticulture' >Horticulture </Link>
-           <Link to='/plant' >Plants</Link>
-           <Link to='/horticulture' >Horticulture </Link>
-           <Link to='/plant' >Plants</Link>
-           <Link to='/horticulture' >Horticulture </Link>
+         
             
       </div>
-      <div className='nav-bar'>
-      
-      <Link to='/' >Plants</Link>
-      <Link to='/horticulture' >Horticulture </Link>
-      <Link to='/' >Plants</Link>
-      <Link to='/horticulture' >Horticulture </Link>
-      <Link to='/' >Plants</Link>
-      <Link to='/horticulture' >Horticulture </Link>
-      <Link to='/' >Plants</Link>
-      <Link to='/horticulture' >Horticulture </Link>
-      <Link to='/' >Plants</Link>
-      <Link to='/horticulture' >Horticulture </Link>
-      <Link to='/' >Plants</Link>
-      <Link to='/horticulture' >Horticulture </Link>
-      <Link to='/' >Plants</Link>
-      <Link to='/horticulture' >Horticulture </Link>
-       
- </div>
+
 
       
       

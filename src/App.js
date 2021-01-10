@@ -9,6 +9,8 @@ import FormikValidation from './Components/FormikValidation/formik';
 
 import Responsive from './Components/MultipleCarosel/MultipleCarosel';
 import LoginPage from './Components/HomePage/LoginPage/LoginPage';
+import ForgotPassword from './Components/forgotPassword/forgotPassword';
+import CarouselImage from './Components/crousels/crousels';
 
 
 
@@ -23,8 +25,9 @@ function App() {
            <Link to='/plant' >Plants</Link>
            <Link to='/formik' >Formik </Link>
            <Link to='/prodtable' >Product-Table</Link>
-           <Link to='/categories' >Responsive</Link>
-           <Link to='/login' >LoginPage</Link>
+           <Link to='/imagecarosel' >ImageCarosel</Link>
+           <Link to='/' >LoginPage</Link>
+           <Link to='/forgotpassword' >ForgotPage</Link>
             
       </div>
 
@@ -32,12 +35,18 @@ function App() {
       
       
       <Switch>
-        <Route  exact path='/plant' component={plants} />
-        {/* <Route   path='/horticulture' component={TabHeaders} /> */}
+        <Route   path='/' component={LoginPage} />
+        <Route   path='/plant' component={plants} />
+        <Route   path='/horticulture' component={TabHeaders} />
         <Route   path='/prodtable' component={ExampleTable} />
         <Route   path='/formik' component={FormikValidation} />
         <Route   path='/categories' component={Responsive} />
-        <Route   path='/login' component={LoginPage} />
+     
+        <Route   path='/forgotpassword' component={ForgotPassword} />
+        <Route   path='/imagecarosel' component={CarouselImage} />
+
+        
+        
         
 
         

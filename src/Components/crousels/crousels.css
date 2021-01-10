@@ -1,0 +1,24 @@
+ .carousel .thumb img {
+  
+   background-color: white;
+   width: 100px ;
+   height: 50px ;
+  } 
+
+.carousel .slide img{
+    max-width: 100%;
+    max-height: 200px;
+    background-color: white;
+    padding: 5px;
+    background-color: none; 
+    /* margin-left: 20%; */
+}
+
+.carousel {
+  max-width: 50%;
+  margin-left: 5rem;
+ 
+}
+
+
+   

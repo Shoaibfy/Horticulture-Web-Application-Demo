@@ -48,7 +48,7 @@ console.log(formik.touched)
                 <Form  className='formAlignment'  >  
                 <h6 className='validation-heading'>Form Validations for touched inputs fields: </h6>
                 {/* onSubmit={formik.handleSubmit}  onsubmit added in formik field */}
-                       <Row>
+                       <Row className='row-gaps'>
                                 <Label htmlFor='name' md={2} className='lastname-label' >Name :</Label>
                                 <Field type='text' name='name' placeholder='Name..'  className='input-field'   />
                                 {/* {...formik.getFieldProps('name')}  field will automatically handles the change with name attributes */}
@@ -107,7 +107,6 @@ console.log(formik.touched)
                               <Button type='submit' style={{backgroundColor:'blue',marginTop:'30px',marginLeft:'150px'}}>Submit</Button>
                     </Row>
                    
-                    <h3>Click on Submit to check Validations</h3>
                 </Form>
             </Formik>
         )

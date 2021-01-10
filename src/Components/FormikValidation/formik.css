@@ -18,6 +18,10 @@
   box-shadow: 0 0 15px #cccccc;
   padding: 10px;
 }
+.row-gaps {
+  margin-bottom: 10px !important;
+}
+
 .lastname-label {
   width: 280px !important;
   margin: 10 0px !important;
@@ -31,7 +35,7 @@
   height: 25px;
   padding: 5px;
   margin: 0px 5px;
-  /* border: 1px solid black; */
+  border: 1px solid #cccccc !important;
 }
 
 .comment-field {
@@ -39,5 +43,6 @@
   height: 35px;
   padding: 5px;
   margin: 10px 5px;
+  border: 1px solid #cccccc !important;
   /* border: 1px solid black; */
 }

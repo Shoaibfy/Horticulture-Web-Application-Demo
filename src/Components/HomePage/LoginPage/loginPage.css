@@ -1,0 +1,43 @@
+.login-table {
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 15px #cccccc;
+  width: 750px;
+  height: 550px;
+  margin: 0 20px !important;
+  background-color: white;
+  padding: 20px 20px;
+  justify-content: center;
+  margin-left: 250px !important;
+}
+.login-content {
+  border: 1px solid #cccccc;
+  box-shadow: 0 0 15px #cccccc;
+  width: 500px;
+  height: 300px;
+  padding: 30px;
+  margin: 20px 50px;
+  margin-top: 50px;
+}
+.login-lable {
+  padding: 5px 20px;
+  width: 400px;
+  height: 80px;
+
+  /* border-bottom: 1px solid rgb(27, 27, 79); */
+}
+.login-title {
+  margin-left: 150px;
+  color: rgb(15, 15, 77);
+}
+.btn-title {
+  margin-top: 10px;
+  margin-left: 120px;
+  width: 180px;
+  background-color: rgb(15, 15, 77) !important;
+}
+.password {
+  float: left;
+}
+.forgot {
+  float: right !important;
+}

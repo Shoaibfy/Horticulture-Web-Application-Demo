@@ -8,6 +8,7 @@ import ExampleTable from './Components/table/exmpleTable';
 import FormikValidation from './Components/FormikValidation/formik';
 
 import Responsive from './Components/MultipleCarosel/MultipleCarosel';
+import LoginPage from './Components/HomePage/LoginPage/LoginPage';
 
 
 
@@ -23,6 +24,7 @@ function App() {
            <Link to='/formik' >Formik </Link>
            <Link to='/prodtable' >Product-Table</Link>
            <Link to='/categories' >Responsive</Link>
+           <Link to='/login' >LoginPage</Link>
             
       </div>
 
@@ -31,10 +33,12 @@ function App() {
       
       <Switch>
         <Route  exact path='/plant' component={plants} />
-        <Route   path='/horticulture' component={TabHeaders} />
+        {/* <Route   path='/horticulture' component={TabHeaders} /> */}
         <Route   path='/prodtable' component={ExampleTable} />
         <Route   path='/formik' component={FormikValidation} />
         <Route   path='/categories' component={Responsive} />
+        <Route   path='/login' component={LoginPage} />
+        
 
         
         

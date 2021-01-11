@@ -1,0 +1,156 @@
+.generate-invoice-background {
+  background-color: lavender;
+  text-align: left;
+  padding-left: 220px;
+}
+.invoice-background {
+  margin-top: 60px;
+  background-color: white;
+  margin: 30px 0px;
+  width: 1350px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.seprateing-divs {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 1350px;
+}
+.client-col {
+  margin: 0px 20px;
+  background-color: white;
+  border-right: 1px solid lightgray;
+  padding: 30px 10px;
+  width: 550px;
+  height: 550px;
+}
+.client-text {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.client-types {
+  width: 410px;
+  background-color: white;
+  height: 40px;
+  margin: 0px 0px;
+  border: 1px solid lightgray;
+}
+.client-textarea {
+  width: 410px;
+  border: 1px solid black;
+  background-color: white;
+  height: 150px;
+  margin: 30px 0px;
+  border: 1px solid lightgray;
+}
+.date-selection-row {
+  width: 410px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.from-date-range {
+  height: 40px;
+  width: 120px;
+  border: 1px solid lightgray;
+}
+.to-text {
+  margin: 10px 0px;
+}
+.to-date-range {
+  margin-right: 120px;
+  height: 40px;
+  width: 120px;
+  border: 1px solid lightgray;
+}
+.time-entry-col {
+  margin: 0px 0px;
+  margin-right: 120px;
+  background-color: white;
+  border-right: 1px solid lightgray;
+  padding: 30px 10px;
+  width: 600px;
+  height: 550px;
+}
+.detailed-group {
+  display: flex;
+  border: 1px solid lightgray;
+  border-bottom: none;
+  width: 520px;
+  height: 60px;
+  padding: 10px;
+  background-color: #fdc488;
+  font-size: 20px;
+  margin: 0px;
+}
+.grouped-details {
+  display: flex;
+  border: 1px solid lightgray;
+  border-top: none;
+  width: 520px;
+  height: 70px;
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  margin: 0px;
+}
+.note-text {
+  text-align: left;
+  margin: 25px 0px;
+}
+.staff-grouped {
+  display: flex;
+  border: 1px solid lightgray;
+  width: 520px;
+  height: 70px;
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  margin: 0px;
+}
+.staff-detailed {
+  display: flex;
+  border: 1px solid lightgray;
+  border-bottom: none;
+
+  width: 520px;
+  height: 70px;
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  margin: 0px;
+}
+.radio-button {
+  height: 35px;
+  margin-right: 5px;
+}
+
+.buttons-row {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 40px;
+}
+.generate-invoice-button {
+  background-color: green;
+  color: white;
+  width: 220px;
+  height: 60px;
+  padding: 20px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-stretch: extra-expanded;
+}
+.cancel-invoice-button {
+  background-color: grey;
+  color: white;
+  width: 220px;
+  height: 60px;
+  padding: 20px;
+  padding-left: 70px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-stretch: extra-expanded;
+  margin-left: 20px;
+}

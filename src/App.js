@@ -11,6 +11,8 @@ import Responsive from './Components/MultipleCarosel/MultipleCarosel';
 import LoginPage from './Components/HomePage/LoginPage/LoginPage';
 import ForgotPassword from './Components/forgotPassword/forgotPassword';
 import CarouselImage from './Components/crousels/crousels';
+import Country from './Components/Drpdowns/country';
+import GenerateInvoice from './Components/GenrateInvoice/invoice';
 
 
 
@@ -28,6 +30,8 @@ function App() {
            <Link to='/imagecarosel' >ImageCarosel</Link>
            <Link to='/login' >LoginPage</Link>
            <Link to='/forgotpassword' >ForgotPage</Link>
+           <Link to='/countries' >Countries-list</Link>
+           <Link to='/invoice' >Invoice</Link>
             
       </div>
 
@@ -44,7 +48,10 @@ function App() {
      
         <Route   path='/forgotpassword' component={ForgotPassword} />
         <Route   path='/imagecarosel' component={CarouselImage} />
-
+        <Route   path='/countries' component={Country} />
+        <Route   path='/invoice' component={GenerateInvoice} />
+      
+      
         
         
         

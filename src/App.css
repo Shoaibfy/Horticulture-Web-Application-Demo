@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+
+  font-family: Open Sans, sans-serif;
   letter-spacing: 1px;
 }
 
@@ -9,6 +10,7 @@
 }
 .nav-bar {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   width: auto;
   height: auto;

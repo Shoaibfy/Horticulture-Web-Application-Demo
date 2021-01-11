@@ -50,7 +50,7 @@ console.log(formik.touched)
                 {/* onSubmit={formik.handleSubmit}  onsubmit added in formik field */}
                        <Row className='row-gaps'>
                                 <Label htmlFor='name' md={2} className='lastname-label' >Name :</Label>
-                                <Field type='text' name='name' placeholder='Name..'  className='input-field'   />
+                                <Field type='text' name='name' placeholder='firstname..'  className='input-field'   />
                                 {/* {...formik.getFieldProps('name')}  field will automatically handles the change with name attributes */}
                                 {/* onBlur={formik.handleBlur} onChange={formik.handleChange} value={formik.values.name} */}
                             
@@ -60,8 +60,8 @@ console.log(formik.touched)
                             </Row>
                        <Row  >
                            
-                              <Label htmlFor='lastName' md={2} className='lastname-label' >LastName:</Label>
-                              <Field type='text'  name='lastName' placeholder='LastName..'   className='input-field'   />
+                              <Label htmlFor='lastName' md={2} className='lastname-label' >Lastname:</Label>
+                              <Field type='text'  name='lastName' placeholder='lastname..'   className='input-field'   />
                         
                         {/* <Col > */}
                             <Row style={{color:'red',marginTop:'0px',paddingLeft:'20px'}}>
@@ -72,8 +72,8 @@ console.log(formik.touched)
                        
                    </Row>
                     <Row>
-                            <Label  htmlFor='email'  md={2} className='lastname-label'>E-mail :</Label>
-                              <Field type='email'  name='email' placeholder='Email..' className='input-field'   />
+                            <Label  htmlFor='email'  md={2} className='lastname-label'>Email :</Label>
+                              <Field type='email'  name='email' placeholder='email..' className='input-field'   />
                         
                             <Row style={{color:'red',paddingLeft:'10px',marginTop:'0px'}}>
                             <ErrorMessage name='email' />

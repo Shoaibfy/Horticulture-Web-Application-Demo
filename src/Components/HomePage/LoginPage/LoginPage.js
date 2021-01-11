@@ -31,6 +31,7 @@ export class LoginPage extends Component {
                         <Row>
                             <Button  className='btn-title'>Login</Button>
                         </Row>
+                     
                     </Row>
 
                 </Row>

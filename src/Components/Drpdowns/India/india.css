@@ -5,3 +5,17 @@
   padding: 20px;
   box-shadow: 0 0 15px #cccccc;
 }
+.icons-sizes {
+  color: red;
+  font-size: 26px;
+  padding: 2px 2px !important;
+  background-color: white;
+  width: 35px !important;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.icons-sizes:hover {
+  background-color: red !important;
+  color: white !important;
+}

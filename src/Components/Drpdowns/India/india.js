@@ -2,7 +2,24 @@ import React, { Component } from 'react';
 import {Row,Card,CardTitle,CardText,Button} from 'reactstrap';
 import './india.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeartbeat
+ } from '@fortawesome/free-solid-svg-icons'
+
+
 export class India extends Component {
+constructor(props){
+    super(props)
+    this.state={
+        likes:105
+    }
+}
+likes=()=>{
+    this.setState({
+        likes: this.state.likes +1
+    })
+}
+
     render() {
         return (
             
@@ -11,7 +28,9 @@ export class India extends Component {
                     <Card body >  <b >  {this.props.Country}   </b>
                         <CardTitle>{this.props.Country} a beautiful country with {this.props.states} states</CardTitle>
                         <CardText>Around {this.props.people}millions people & with different religions,culture</CardText>
-                        <Button style={{backgroundColor:'rgb(15, 15, 92)'}} > <b> {this.props.Country} </b>  </Button>
+                        <Button style={{backgroundColor:'rgb(15, 15, 92)'}} > <b style={{paddingBottom:'10px'}}> {this.state.likes} </b> 
+                        <i><FontAwesomeIcon   icon={faHeartbeat} className='icons-sizes'onClick={this.likes}   /> </i> 
+                         <b  style={{paddingBottom:'10px'}}> {this.props.Country} </b>  </Button>
                   </Card>
                 </Row>
             

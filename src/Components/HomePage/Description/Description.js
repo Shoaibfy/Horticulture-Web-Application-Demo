@@ -32,7 +32,7 @@ import img3 from '../../../images/cupids-bow.jpg';
     }
   ];
   
-  const Slider = (props) => {
+  const Description = (props) => {
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
   
@@ -85,4 +85,4 @@ import img3 from '../../../images/cupids-bow.jpg';
     );
   }
   
-  export default Slider;
+  export default Description;

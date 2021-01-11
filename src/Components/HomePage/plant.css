@@ -1,6 +1,9 @@
 .slider-margins {
-  margin-top: 20px 50px !important;
+  margin-top: 20px 30px !important;
   box-shadow: 0 0 15px #cccccc;
   border: 1px solid lightgray;
   padding: 30px;
+  display: flex;
+  color: rgb(16, 16, 58) !important;
+  opacity: 1;
 }

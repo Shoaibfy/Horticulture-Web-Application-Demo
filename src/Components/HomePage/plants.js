@@ -3,6 +3,7 @@ import './plant.css'
 import Banner from './BannerCards/Banner'
 import Slider from './SliderSection/Slider'
 import HomeTitle from './TitleSection/title'
+import Description from './Description/Description'
 
 export class plants extends Component {
     render() {
@@ -13,6 +14,7 @@ export class plants extends Component {
                 <Banner />
                 <div className='slider-margins'>
                   <Slider />
+                  <Description />
                 </div>
                
             </div>

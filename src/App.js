@@ -26,7 +26,7 @@ function App() {
            <Link to='/formik' >Formik </Link>
            <Link to='/prodtable' >Product-Table</Link>
            <Link to='/imagecarosel' >ImageCarosel</Link>
-           <Link to='/' >LoginPage</Link>
+           <Link to='/login' >LoginPage</Link>
            <Link to='/forgotpassword' >ForgotPage</Link>
             
       </div>
@@ -35,7 +35,7 @@ function App() {
       
       
       <Switch>
-        <Route   path='/' component={LoginPage} />
+        <Route   path='/login' component={LoginPage} />
         <Route   path='/plant' component={plants} />
         <Route   path='/horticulture' component={TabHeaders} />
         <Route   path='/prodtable' component={ExampleTable} />

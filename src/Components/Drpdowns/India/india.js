@@ -11,7 +11,7 @@ export class India extends Component {
 constructor(props){
     super(props)
     this.state={
-        likes:105
+        likes:this.props.likes
     }
 }
 likes=()=>{
@@ -29,7 +29,7 @@ likes=()=>{
                         <CardTitle>{this.props.Country} a beautiful country with {this.props.states} states</CardTitle>
                         <CardText>Around {this.props.people}millions people & with different religions,culture</CardText>
                         <Button style={{backgroundColor:'rgb(15, 15, 92)'}} > <b style={{paddingBottom:'10px'}}> {this.state.likes} </b> 
-                        <i><FontAwesomeIcon   icon={faHeartbeat} className='icons-sizes'onClick={this.likes}   /> </i> 
+                        <i><FontAwesomeIcon   icon={faHeartbeat} className='icon-sizes'onClick={this.likes}   /> </i> 
                          <b  style={{paddingBottom:'10px'}}> {this.props.Country} </b>  </Button>
                   </Card>
                 </Row>

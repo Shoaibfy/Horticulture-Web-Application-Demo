@@ -76,12 +76,12 @@ class Country extends Component {
                     <Row>
                        
                     {
-                            this.state.id === 1 ?<India Country='India' states={29} people={12.2} />  :
-                            this.state.id === 2 ? <India Country='America' states={39} people={1.2}  /> :
-                            this.state.id === 3 ? <India Country='China' states={49} people={6.2}  /> :
-                            this.state.id === 4 ? <India Country='Nepal' states={59} people={8.2}  /> :
-                            this.state.id === 5 ? <India Country='Japan' states={69}  people={9.2} /> :
-                            this.state.id === 6 ? <India Country='Indonesia' states={79} people={3.2}  /> :
+                            this.state.id === 1 ?<India Country='India' states={29} people={12.2}  likes={507} />  :
+                            this.state.id === 2 ? <India Country='America' states={39} people={1.2} likes={107}  /> :
+                            this.state.id === 3 ? <India Country='China' states={49} people={6.2}  likes={207} /> :
+                            this.state.id === 4 ? <India Country='Nepal' states={59} people={8.2}  likes={587} /> :
+                            this.state.id === 5 ? <India Country='Japan' states={69}  people={9.2} likes={877} /> :
+                            this.state.id === 6 ? <India Country='Indonesia' states={79} people={3.2}  likes={767} /> :
                             ''
                         }
                     </Row>
